@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'BebasNeueRegular';
+    src: url('../fonts/bebasneue-webfont.woff') format('woff'),
+    url('../fonts/bebasneue-webfont.ttf') format('truetype'),
+    url('../fonts/bebasneue-webfont.webfontABYyK1dn') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 1;
+    padding: 0;
+    background-color: rgb(33, 43, 34);
+}
+
+li, a, button {
+    font-family: Bebas-Neue, sans-serif;
+    font-weight: 600;
+    font-size: 1.4 rem;
+    color: rgba(245, 235, 199, .8);
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px, 10%;
+}
+
+logo {
+    cursor: pointer;
+}
+
+.navlinks {
+    list-style: none;
+}
+
+.navlinks li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navlinks li a {
+    transition: all 0.3s ease 0s;
+}
+
+.navlinks li a:hover {
+    transition: all 0.3s ease 0s;
+}
+
+button {
+    padding: 11px 25px;
+    background-color: rgba(91, 80, 76, 1);
+    color: rgba(245, 235, 199, .8);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin-right: 5px;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: rgba(245, 235, 199, 1);
+    color: rgba(91, 80, 76, 1);
+}
