@@ -266,43 +266,57 @@ nav a{
 #about p {
     width: 73%;
     display: flex;
-    color: #1b0326;
+    color: white;
 }
 
 .about-p {
     box-shadow: 0px 0px 7px #1b0326;
     border-radius: 10px;
-    padding: 1rem;
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    margin-top: 1.5rem;
 }
 
 .about-cards {
     width: 75%;
-    display: flex;
+    display: inline-flex;
     justify-content: space-between;
     padding: 5rem 1rem;
 }
 
+.about-cards p {
+    width: 90% !important;
+    margin-top: 1rem;
+}
+
 .about-card {
     width: 17rem;
-    display: flex;
+    display: inline-flex;
     justify-content:space-between;
     align-items: center;
     flex-direction: column;
     box-shadow: 0px 0px 7px #1b0326;
     border-radius: 10px;
     padding: 1rem;
-
 }
 
-.about-card h1 {
-    margin-bottom: .5rem;
+.about-c {
+    margin-top: 2rem;
+    color: #1b0326;
+}
+
+.about-web {
+    color: #1b0326;
+    margin-top: 1rem;
+}
+
+.about-python {
+    margin-top: 1rem;
     color: #1b0326;
 }
 
 .about-card p {
     font-size: 1rem;
     text-align: start;
-    padding: .5rem;
     color: #1b0326;
 }
 
@@ -321,6 +335,19 @@ nav a{
     padding: 1.1rem;
 }
 
+#about-mid {
+    width: 17rem;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0px 0px 7px #1b0326;
+    border-radius: 10px;
+    padding: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
 /* portfilio section */
 
 #portfolio {
@@ -332,6 +359,14 @@ nav a{
     background-color:#ba5044;
 }
 
+.portfolio-p {
+    box-shadow: 0px 0px 7px #1b0326;
+    border-radius: 10px;
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    margin-top: 1.5rem;
+    color:white;
+}
+
 .cards {
     width: 75%;
     display: flex;
@@ -340,25 +375,39 @@ nav a{
 }
 
 .card {
-    width: 16rem;
+    width: 17rem;
     display: flex;
-    justify-content:center;
+    justify-content:space-between;
     align-items: center;
     flex-direction: column;
-    box-shadow: 0px 0px 9px rgba(209, 209, 209, 1);
+    box-shadow: 0px 0px 7px #1b0326;
     border-radius: 10px;
+    padding: 1rem;
+}
+
+#portfolio-mid {
+    width: 17rem;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0px 0px 7px #1b0326;
+    border-radius: 10px;
+    padding: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 .card h1 {
     margin-bottom: .5rem;
-    color: #3e3e3e;
+    color: white;
 }
 
 .card p {
     font-size: 1rem;
     text-align: start;
     padding: .5rem;
-    color: gray;
+    color: white;
 }
 
 .card-btn {
@@ -377,26 +426,31 @@ nav a{
 .card-btn button {
     width: 10rem;
     height: 2rem;
-    border-radius: 10px;
     outline: none;
-    border: none;
-    color:#eff9d6;
-    background: #ba5044;
-    font-size: .8rem;
-    letter-spacing: 1px;
-
+    border: 2px solid#1b0326;/* tomato;*/
+    border-radius: 10px;
+    color: #ba5044;
+    letter-spacing: 2px;
+    font-size: .9rem;
+    cursor: pointer;
+    background-color: #ba5044;
 }
+
+.card-btn button:hover {
+    background-color: #1b0326;
+}
+
 
 /* contact */
 
 #contact {
     width: 100%;
-    height: auto;
+    height: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding-bottom: 2rem;
+    padding-bottom: 3.5rem;
     background: #1b0326;
     clip-path: polygon(50% 11%,100% 0,100% 100%,0 100%,0 0);
 }
@@ -430,6 +484,8 @@ nav a{
     font-weight: 100;
     text-align: center;
     margin-bottom: 1.5rem;
+    margin-top: 3.5rem;
+    padding-top: 4.5rem;
 }
 
 .input {
@@ -450,6 +506,7 @@ nav a{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding-bottom: 2.5rem;
 }
 
 .input input {
@@ -484,8 +541,9 @@ nav a{
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-top: 1.25rem;
+    margin-bottom: 2.5rem;
+    padding-bottom: 2.5rem;
 }
 
 .contact-btn button {
@@ -617,5 +675,9 @@ h5 span{
     }
     .card {
         margin-bottom: 1rem;
+    }
+
+    .portfolio-p {
+        width: 75%;
     }
 }
