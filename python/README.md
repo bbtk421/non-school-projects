@@ -1,8 +1,8 @@
 # Python Projects
 
-These are some small projects that werent part of my bootcamp.
+Working on various types of projects exploring more of what can be done with Python.
 
-* [Python Django Live Projext]()
+* [Python Django Live Project]()
 * [A Timey Wimey Adventure]()
 * [Sudoku Solver]() Work in progress
 * [Twitchbot]() Worl in progress
