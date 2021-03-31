@@ -5,7 +5,7 @@ Working on various types of projects exploring more of what can be done with Pyt
 * [Python Django Live Project]()
 * [A Timey Wimey Adventure]()
 * [Sudoku Solver]() Work in progress
-* [Twitchbot]() Worl in progress
+* [Twitchbot]() Work in progress
 
 
 ### Python Django Live Project
