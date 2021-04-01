@@ -2,7 +2,7 @@
 
 Working on various types of projects exploring more of what can be done with Python.
 
-* [Python Django Live Project]()
+* [Python Django Live Project](https://github.com/bbtk421/liveprojects/tree/main/PythonLiveProject)
 * [A Timey Wimey Adventure]()
 * [Sudoku Solver]() Work in progress
 * [Twitchbot]() Work in progress
